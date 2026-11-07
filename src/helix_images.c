@@ -6,8 +6,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-#include <helix_images.h>
-#include <helix_logging.h>
+#include <helix/helix_images.h>
+#include <helix/helix_logging.h>
 #include <libretro.h>
 
 // Takes uncompressed 24-bit bmp and turns it into raw RGB565
